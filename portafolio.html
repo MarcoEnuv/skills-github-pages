@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio CV</title>
+    <!-- Todos los estilos -->
+    <link href="css/css-BG.css" rel="stylesheet">
+    <link href="css/css.css" rel="stylesheet">
+    <link href="css/css-gg.css" rel="stylesheet">
+    <link href="css/mobile.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="shortcut icon" href="resources/logito.svg" type="image/svg">
+    <script src="js/site.js"></script>
+</head>
+
+<body>
+    <div class="main-content">
+        <aside>
+            <div class="profile">
+                <img src="/resources/UTP0143828_FOTO TSU_MARCO EDUARDO RAMOS OTERO.jpg" id="photo-profile" class="my-photo" />
+                <div>
+                    <h1 class="title">Marco Eduardo Ramos Otero</h1>
+                    <div class="badge-profile">Programador</div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/marco.ramos.108/?viewas=&should_open_composer=false&show_switched_toast=false&show_invite_to_follow=false&show_switched_tooltip=false&show_podcast_settings=false&show_community_review_changes=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true&locale=es_LA" target="_blank"><i class="gg-facebook"></i></a>
+                        <a href="x.com" target="_blank"><i class="gg-twitter"></i></a>
+                        <a href="youtube.com" target="_blank"><i class="gg-youtube"></i></a>
+                        <a href="pokemon-go.com" target="_blank"><i class="gg-pokemon"></i></a>
+                    </div>
+                </div>
+                <div class="info">
+                    <ul class="contacts-block">
+                        <li class="contacts-block-item"><i class="gg-calendar"></i>&nbsp;&nbsp;03 de Mayo del 2001</li>
+                        <li class="contacts-block-item"><i class="gg-pin"></i>&nbsp;&nbsp;Puebla, Puebla</li>
+                        <li class="contacts-block-item"><i class="gg-mail"></i>&nbsp;&nbsp;<a
+                                href="mailto:jennyortega23@hotmail.com">ramosoteromarco@gmail.com</a></li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;&nbsp;+52 22 16 07 79 67</li>
+                        <li class="contacts-block-item"><i class="gg-phone"></i>&nbsp;&nbsp;<a
+                                href="skype:jenny_2318">Skype: jenny_2318</a></li>
+                    </ul>
+                </div>
+                <a class="btn" href="/resources/HorarioPrimavera.pdf">Descargar CV</a>
+            </div>
+        </aside>
+
+        <section class="resume">
+
+            <h2 class="title bordered">Portafolio</h2>
+            <div class="portfolio">
+                <img src="/resources/pat1.jpeg" onclick="showImage(this)">
+                <img src="/resources/pat2.jpeg" onclick="showImage(this)">
+                <img src="/resources/pat3.jpeg" onclick="showImage(this)">
+                <img src="/resources/pat4.jpeg" onclick="showImage(this)">
+                <img src="/resources/pat5.jpeg" onclick="showImage(this)">
+                <div class="modal" id="preview" onclick="cerrarModal()"><i class="gg-close-o"></i></div>
+            </div>
+
+            <header>
+                <div class="menu-circle">
+                    <i class="gg-menu-oreos" onclick="toggleMenu()"></i>
+                </div>
+                <div class="inner-menu js-menu">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="index.html">Aceca de Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="portafolio.html">Portafolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+
+        </section>
+    </div>
+    <!-- <section>Información</section> -->
+    <footer>Autor: Jenny Ortega García</footer>
+    <script src="js/site.js"></script>
+</body>
+
+</html>
